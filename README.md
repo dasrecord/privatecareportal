@@ -1,33 +1,40 @@
-# privatecareportal
+1. ![Download VS Code](how_to_guide/1_download_vs_code.png)
+   Congrats! You're officially a developer.
 
-This template should help get you started developing with Vue 3 in Vite.
+2. ![Create Github Account](how_to_guide/2_create_github_account.png)
+   This is where we'll store and share our updates to our codebase.
 
-## Recommended IDE Setup
+3. ![Download & Install git](how_to_guide/3_download_install_git.png)
+   This step ensure your machine understands 'git' which is a version control protocol.
+   Think "Track Changes" on steroids.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+4. ![Copy Repository Link](how_to_guide/4_copy_repo_link.png)
+   The repo link for this project is https://github.com/dasrecord/privatecareportal.git
 
-## Type Support for `.vue` Imports in TS
+5. ![Choose Repository Location](how_to_guide/5_choose_repo_location.png)
+   Determine the parent folder where you wish to save this website.
+   Do not create a folder called 'privatecareportal' - this will happen automatically later.
+6. ![Clone the Repo](how_to_guide/6_clone_repo.png)
+   This creates a local copy of the codebase in your desired location.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+7. ![Open Project in VS Code](how_to_guide/7_inside_vs_code.png)
+   Once cloned you should be able to see the codebase in VSCode
 
-## Customize configuration
+8. ![Download & Install Node.js](how_to_guide/8_download_install_nodejs.png)
+   Node.js is required to run the project.
+   Download and install it from the official website found [here](https://nodejs.org/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+9. ![Run npm install in a terminal](how_to_guide/9_terminal_npm_install.png)
+   Open a terminal and navigate to the project directory.
+   If this
+   Run `npm install` to install all necessary dependencies.
 
-## Project Setup
+10. ![Use VS Code's integrated terminal](how_to_guide/10_integrated_terminal_npm_install.png)
+    You can also use the integrated terminal in VS Code to run `npm install`.
 
-```sh
-npm install
-```
+11. ![Run npm dev](how_to_guide/11_npm_run_dev.png)
+    After installing dependencies, run `npm dev` to start the development server.
+    Look for VSCode's hot button as you will be doing this lots.
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+12. ![Navigate to localhost](how_to_guide/12_navigate_to_localhost.png)
+    Open your web browser and navigate to `http://localhost:5173` to see the running application.
