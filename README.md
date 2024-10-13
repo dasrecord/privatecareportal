@@ -39,7 +39,7 @@
    If this is new to you please examine the individual terminal commands in the screenshot.
 
    `ls` to show directory contents
-   `cd` to change directory
+   `cd` to change directory<br>
    Run `npm install` to install all necessary dependencies.
 
 10. ![Use VS Code's integrated terminal](how_to_guide/10_integrated_terminal_npm_install.png)<br>
