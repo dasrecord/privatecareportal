@@ -36,9 +36,9 @@
 9. ![Run npm install in a terminal](how_to_guide/9_terminal_npm_install.png)<br>
    Run `npm install` in a terminal.<br>
    Open a terminal and navigate to the project directory.<br>
-   If this is new to you please examine the individual terminal commands in the screenshot.
-
-   `ls` to show directory contents
+   If this is new to you please examine the individual terminal commands in the screenshot.<br>
+   For example:<br>
+   `ls` to show directory contents<br>
    `cd` to change directory<br>
    Run `npm install` to install all necessary dependencies.
 
