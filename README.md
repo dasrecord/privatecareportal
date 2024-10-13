@@ -43,9 +43,8 @@
    Run `npm install` to install all necessary dependencies.
 
 10. ![Use VS Code's integrated terminal](how_to_guide/10_integrated_terminal_npm_install.png)<br>
-    Use VS Code's integrated terminal.
-    You can also use the integrated terminal in VS Code to run `npm install`.
-
+    OPTIONALLY Use VS Code's integrated terminal.<br>
+    To open the integrated terminal in VS Code, you can use the shortcut `Ctrl + ~` (Control + Tilde).
 11. ![Run npm dev](how_to_guide/11_npm_run_dev.png)<br>
     Run `npm dev`.<br>
     After installing dependencies, run `npm dev` to start the development server.
