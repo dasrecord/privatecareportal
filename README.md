@@ -45,6 +45,7 @@
 10. ![Use VS Code's integrated terminal](how_to_guide/10_integrated_terminal_npm_install.png)<br>
     OPTIONALLY Use VS Code's integrated terminal.<br>
     To open the integrated terminal in VS Code, you can use the shortcut `Ctrl + ~` (Control + Tilde).
+
 11. ![Run npm dev](how_to_guide/11_npm_run_dev.png)<br>
     Run `npm dev`.<br>
     After installing dependencies, run `npm dev` to start the development server.<br>
@@ -53,3 +54,11 @@
 12. ![Navigate to localhost](how_to_guide/12_navigate_to_localhost.png)<br>
     Navigate to localhost.<br>
     Open your web browser and navigate to `http://localhost:5173` to see the running application.
+
+<!-- If you encounter a git related error you may need to enter these into a terminal:<br>
+`git config --global user.name "YOUR_NAME"`<br>
+`git config --global user.email "YOUR_EMAIL"`<br>
+<br>
+<br> -->
+
+When you're ready to start executing your vision go through [this VueJS tutorial series](https://www.youtube.com/watch?v=BZwn47RPiAM&list=PL3VM-unCzF8jX-GoazLPcbi7M0wJux8F-)
