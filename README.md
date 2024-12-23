@@ -1,13 +1,16 @@
 1. ![Download VS Code](how_to_guide/1_download_vs_code.png)<br>
    Download VS Code.<br>
+   https://code.visualstudio.com/Download<br>
    Congrats! You're officially a developer.
 
 2. ![Create Github Account](how_to_guide/2_create_github_account.png)<br>
    Create a GitHub account.<br>
+   https://github.com/<br>
    This is where we'll store and share our updates to our codebase.
 
 3. ![Download & Install git](how_to_guide/3_download_install_git.png)<br>
    Download & install Git.<br>
+   https://git-scm.com/downloads<br>
    This step ensures your machine understands 'git', which is a version control protocol.<br>
    Think "Track Changes" on steroids.
 
@@ -30,6 +33,7 @@
 
 8. ![Download & Install Node.js](how_to_guide/8_download_install_nodejs.png)<br>
    Download & install Node.js.<br>
+   https://nodejs.org/en/download/prebuilt-installer<br>
    Node.js is required to run the project.<br>
    Download and install it from the official website found [here](https://nodejs.org/).
 
