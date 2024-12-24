@@ -51,7 +51,7 @@
     To open the integrated terminal in VS Code, you can use the shortcut `Ctrl + ~` (Control + Tilde).
 
 11. ![Run npm dev](how_to_guide/11_npm_run_dev.png)<br>
-    Run `npm dev`.<br>
+    Run `npm run dev`.<br>
     After installing dependencies, run `npm dev` to start the development server.<br>
     Look for VS Code's hot button as you will be doing this frequently.
 
