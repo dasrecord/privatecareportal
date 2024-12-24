@@ -65,4 +65,6 @@
 <br>
 <br> -->
 
+[Video Tutorial Playlist](https://youtube.com/playlist?list=PLWE4APo0C32XiupILd0YFc1-PetwWVj4o&si=goHfPYu1t1Yr6VN_)
+
 When you're ready to start executing your vision go through [this VueJS tutorial series](https://www.youtube.com/watch?v=BZwn47RPiAM&list=PL3VM-unCzF8jX-GoazLPcbi7M0wJux8F-)

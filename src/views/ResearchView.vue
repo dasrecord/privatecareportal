@@ -172,6 +172,8 @@ export default {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: large;
+  font-weight: bold;
 }
 
 .research-view form button:hover {
