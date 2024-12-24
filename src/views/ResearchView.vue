@@ -18,50 +18,83 @@
         <label for="age">Age:</label>
         <input type="number" id="age" v-model="form.age" required />
       </div> -->
+
       <div>
-        <label for="expectations"
-          >What do you expect most from your doctor?</label
+        <label for="appointment-length">
+          How long should a doctor's appointment take?
+        </label>
+        <select
+          id="appointment-length"
+          v-model="form.appointment_length"
+          required
         >
+          <option value="5_minutes">5 minutes</option>
+          <option value="15_minutes">15 minutes</option>
+          <option value="30_minutes">30 minutes</option>
+          <option value="45_minutes">45 minutes</option>
+          <option value="60_mintues">60 minutes</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="appointment-frequency">
+          How often do you need to see your private care team?
+        </label>
+        <select
+          id="appointment-frequency"
+          v-model="form.appointment_frequency"
+          required
+        >
+          <option value="weekly">Weekly</option>
+          <option value="monthly">Monthly</option>
+          <option value="quarterly">Quarterly</option>
+          <option value="semi_annually">Semi-Annually</option>
+          <option value="annually">Annually</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="important-attribute">
+          Your ideal doctor or nurse is:
+        </label>
+        <select
+          id="important-attribute"
+          v-model="form.important_attribute"
+          required
+        >
+          <option value="efficient">Efficient - time is money</option>
+          <option value="knowledgeable">
+            Knowledgeable - facts before feelings
+          </option>
+          <option value="empathetic">Empathetic - vibes first</option>
+          <option value="communicative">
+            Communicative - keeps me informed
+          </option>
+        </select>
+      </div>
+
+      <div>
+        <label for="bedside_manner">
+          How important is it for my private care team to give me their raw,
+          unfiltered opinion?
+        </label>
+        <select id="bedside_manner" v-model="form.bedside_manner" required>
+          <option value="absolutely_critical">Absolutely Critical</option>
+          <option value="very_important">Very Important</option>
+          <option value="somewhat_important">Somewhat Important</option>
+          <option value="not_important">Not Important</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="expectations">
+          What do I expect most from my private care team?
+        </label>
         <textarea
           id="expectations"
           v-model="form.expectations"
           required
         ></textarea>
-      </div>
-
-      <div>
-        <label for="communication"
-          >How important is communication with your doctor?</label
-        >
-        <select id="communication" v-model="form.communication" required>
-          <option value="very_important">Very Important</option>
-          <option value="important">Important</option>
-          <option value="neutral">Neutral</option>
-          <option value="not_important">Not Important</option>
-        </select>
-      </div>
-      <div>
-        <label for="availability"
-          >How important is the availability of your doctor?</label
-        >
-        <select id="availability" v-model="form.availability" required>
-          <option value="very_important">Very Important</option>
-          <option value="important">Important</option>
-          <option value="neutral">Neutral</option>
-          <option value="not_important">Not Important</option>
-        </select>
-      </div>
-      <div>
-        <label for="bedside_manner"
-          >How important is it for your doctor to give you their unbiased
-          opinion?</label
-        >
-        <select id="bedside_manner" v-model="form.bedside_manner" required>
-          <option value="very_important">Very Important</option>
-          <option value="important">Important</option>
-          <option value="neutral">Neutral</option>
-          <option value="not_important">Not Important</option>
-        </select>
       </div>
       <!-- <div>
         <label for="medicalHistory">Medical History:</label>
@@ -142,6 +175,7 @@ export default {
 }
 
 .research-view form button:hover {
-  background-color: #0056b3;
+  background-color: white;
+  color: red;
 }
 </style>
