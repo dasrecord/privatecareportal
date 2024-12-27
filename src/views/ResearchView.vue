@@ -148,6 +148,19 @@ export default {
           payload
         );
         console.log("Form submitted successfully:", response.data);
+        this.form = {
+          name: "",
+          email: "",
+          phone: "",
+          age: "",
+          appointment_length: "",
+          appointment_frequency: "",
+          important_attribute: "",
+          bedside_manner: "",
+          expectations: "",
+          medicalHistory: "",
+        };
+        alert("Form submitted successfully!");
       } catch (error) {
         console.error("Error submitting form:", error);
         if (error.response) {
