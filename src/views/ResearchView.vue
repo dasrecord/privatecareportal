@@ -137,7 +137,7 @@ export default {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   border-radius: 8px;
 }
 
@@ -161,6 +161,7 @@ export default {
   padding: 8px;
   box-sizing: border-box;
   border-radius: 5px;
+  background-color: white;
 }
 
 .research-view form button {
