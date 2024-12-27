@@ -45,10 +45,10 @@
           required
         >
           <option value="weekly">Weekly</option>
-          <option value="monthly">Monthly</option>
-          <option value="quarterly">Quarterly</option>
-          <option value="semi_annually">Semi-Annually</option>
-          <option value="annually">Annually</option>
+          <option value="Monthly">Monthly</option>
+          <option value="Quarterly">Quarterly</option>
+          <option value="Semi_annually">Semi-Annually</option>
+          <option value="Annually">Annually</option>
         </select>
       </div>
 
@@ -61,12 +61,12 @@
           v-model="form.important_attribute"
           required
         >
-          <option value="efficient">Efficient - time is money</option>
-          <option value="knowledgeable">
+          <option value="Efficient">Efficient - time is money</option>
+          <option value="Knowledgeable">
             Knowledgeable - facts before feelings
           </option>
-          <option value="empathetic">Empathetic - vibes first</option>
-          <option value="communicative">
+          <option value="Empathetic">Empathetic - vibes first</option>
+          <option value="Communicative">
             Communicative - keeps me informed
           </option>
         </select>
@@ -78,10 +78,10 @@
           unfiltered opinion?
         </label>
         <select id="bedside_manner" v-model="form.bedside_manner" required>
-          <option value="absolutely_critical">Absolutely Critical</option>
-          <option value="very_important">Very Important</option>
-          <option value="somewhat_important">Somewhat Important</option>
-          <option value="not_important">Not Important</option>
+          <option value="Absolutely Critical">Absolutely Critical</option>
+          <option value="Very Important">Very Important</option>
+          <option value="Somewhat Important">Somewhat Important</option>
+          <option value="Not Important">Not Important</option>
         </select>
       </div>
 
@@ -127,12 +127,12 @@ export default {
       try {
         // Format the form data for Slack
         const payload = {
-          text: `New form submission:\n
-          Appointment Length: ${this.form.appointment_length}\n
-          Appointment Frequency: ${this.form.appointment_frequency}\n
-          Important Attribute: ${this.form.important_attribute}\n
-          Bedside Manner: ${this.form.bedside_manner}\n
-          Expectations: ${this.form.expectations}`,
+          text: `New Incoming Patient Reseach:
+          :timer_clock: ${this.form.appointment_length}
+          :calendar: ${this.form.appointment_frequency}
+          :stethoscope: ${this.form.important_attribute}
+          :hospital: ${this.form.bedside_manner}
+          :trident: ${this.form.expectations}`,
         };
 
         const response = await axios.post(
