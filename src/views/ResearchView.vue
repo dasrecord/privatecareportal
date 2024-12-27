@@ -110,6 +110,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: "ResearchView",
   data() {
@@ -119,14 +121,45 @@ export default {
         email: "",
         phone: "",
         age: "",
+        appointment_length: "",
+        appointment_frequency: "",
+        important_attribute: "",
+        bedside_manner: "",
+        expectations: "",
         medicalHistory: "",
       },
     };
   },
   methods: {
-    submitForm() {
-      // Handle form submission, e.g., send data to an API
-      console.log("Form submitted:", this.form);
+    async submitForm() {
+      try {
+        // Format the form data for Slack
+        const payload = {
+          text: `New form submission:\n
+          Appointment Length: ${this.form.appointment_length}\n
+          Appointment Frequency: ${this.form.appointment_frequency}\n
+          Important Attribute: ${this.form.important_attribute}\n
+          Bedside Manner: ${this.form.bedside_manner}\n
+          Expectations: ${this.form.expectations}`,
+        };
+
+        const response = await axios.post(
+          "https://relayproxy.vercel.app/das_record_slack",
+          payload
+        );
+        console.log("Form submitted successfully:", response.data);
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        if (error.response) {
+          console.error("Error response data:", error.response.data);
+          console.error("Status code:", error.response.status);
+          console.error("Headers:", error.response.headers);
+        } else if (error.request) {
+          console.error("No response received:", error.request);
+        } else {
+          console.error("Error setting up request:", error.message);
+        }
+      }
     },
   },
 };
