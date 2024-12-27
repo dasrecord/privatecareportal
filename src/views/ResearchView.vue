@@ -2,23 +2,22 @@
   <div class="research-view">
     <h1>Help us help you...</h1>
     <form @submit.prevent="submitForm">
-      <!-- <div>
-        <label for="name">What is your name?</label>
+      <!-- <div class="demographics">
+        <label for="name">Name:</label>
         <input type="text" id="name" v-model="form.name" required />
-      </div> -->
-      <!-- <div>
         <label for="email">Email:</label>
         <input type="email" id="email" v-model="form.email" required />
-      </div> -->
-      <!-- <div>
         <label for="phone">Phone:</label>
         <input type="tel" id="phone" v-model="form.phone" required />
-      </div> -->
-      <!-- <div>
         <label for="age">Age:</label>
         <input type="number" id="age" v-model="form.age" required />
+        <label for="medicalHistory">Medical History:</label>
+        <textarea
+          id="medicalHistory"
+          v-model="form.medicalHistory"
+          required
+        ></textarea>
       </div> -->
-
       <div>
         <label for="appointment-length">
           How long should a doctor's appointment take?
@@ -96,14 +95,7 @@
           required
         ></textarea>
       </div>
-      <!-- <div>
-        <label for="medicalHistory">Medical History:</label>
-        <textarea
-          id="medicalHistory"
-          v-model="form.medicalHistory"
-          required
-        ></textarea>
-      </div> -->
+
       <button type="submit">Submit</button>
     </form>
   </div>
@@ -179,6 +171,12 @@ export default {
 </script>
 
 <style scoped>
+.demographics {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+}
+
 .research-view {
   max-width: 600px;
   margin: 0 auto;
