@@ -1,3 +1,6 @@
+
+[CLICK HERE FOR THE VIDEO TUTORIAL](https://youtube.com/playlist?list=PLWE4APo0C32XiupILd0YFc1-PetwWVj4o&si=goHfPYu1t1Yr6VN_)
+
 1. ![Download VS Code](how_to_guide/1_download_vs_code.png)<br>
    Download VS Code.<br>
    https://code.visualstudio.com/Download<br>
@@ -64,7 +67,5 @@
 `git config --global user.email "YOUR_EMAIL"`<br>
 <br>
 <br> -->
-
-[Video Tutorial Playlist](https://youtube.com/playlist?list=PLWE4APo0C32XiupILd0YFc1-PetwWVj4o&si=goHfPYu1t1Yr6VN_)
 
 When you're ready to start executing your vision go through [this VueJS tutorial series](https://www.youtube.com/watch?v=BZwn47RPiAM&list=PL3VM-unCzF8jX-GoazLPcbi7M0wJux8F-)
